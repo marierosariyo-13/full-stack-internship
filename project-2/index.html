@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse - Gaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Game<span>Verse</span></div>
+
+    <button id="menuBtn">☰</button>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="small-title">WELCOME TO GAMEVERSE</p>
+        <h1>Play. Compete. <span>Have Fun.</span></h1>
+        <p>
+            Play simple and exciting games, improve your score,
+            and compete with your friends.
+        </p>
+
+        <a href="#games" class="btn">Explore Games</a>
+        <a href="#pricing" class="btn second">View Plans</a>
+    </div>
+
+    <div class="hero-box">
+        🎮
+        <h3>Ready to Play?</h3>
+        <p>Choose a game and start your challenge.</p>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section id="games">
+    <div class="title">
+        <p class="small-title">OUR GAMES</p>
+        <h2>Choose Your Game</h2>
+        <p>Enjoy different games and test your skills.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="emoji">❌⭕</div>
+            <h3>Tic Tac Toe</h3>
+            <p>Play against your friend and get three symbols in a row.</p>
+            <button class="play" data-game="Tic Tac Toe">Play Now</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🐍</div>
+            <h3>Snake Game</h3>
+            <p>Eat the food and try to get the highest score.</p>
+            <button class="play" data-game="Snake Game">Play Now</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🧠</div>
+            <h3>Memory Game</h3>
+            <p>Find matching cards and complete the challenge.</p>
+            <button class="play" data-game="Memory Game">Play Now</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">✊</div>
+            <h3>Rock Paper Scissors</h3>
+            <p>Choose your move and compete against the computer.</p>
+            <button class="play" data-game="Rock Paper Scissors">Play Now</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🔢</div>
+            <h3>Number Guessing</h3>
+            <p>Guess the secret number in the fewest attempts.</p>
+            <button class="play" data-game="Number Guessing">Play Now</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">⚡</div>
+            <h3>Quick Challenge</h3>
+            <p>Test your speed with a simple quick challenge.</p>
+            <button class="play" data-game="Quick Challenge">Play Now</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="dark-section">
+    <div class="title">
+        <p class="small-title">PRICING</p>
+        <h2>Choose Your Plan</h2>
+        <p>Start free or get more features with our plans.</p>
+    </div>
+
+    <div class="pricing">
+
+        <div class="price-card">
+            <h3>Free</h3>
+            <h4>₹0</h4>
+            <p>3 Games</p>
+            <p>Basic Leaderboard</p>
+            <p>Daily Challenges</p>
+            <a href="#contact" class="btn">Start Free</a>
+        </div>
+
+        <div class="price-card popular">
+            <p class="popular-text">POPULAR</p>
+            <h3>Pro</h3>
+            <h4>₹199</h4>
+            <p>All Games</p>
+            <p>Advanced Leaderboard</p>
+            <p>Extra Challenges</p>
+            <a href="#contact" class="btn">Choose Pro</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Premium</h3>
+            <h4>₹399</h4>
+            <p>All Pro Features</p>
+            <p>Premium Tournaments</p>
+            <p>Priority Support</p>
+            <a href="#contact" class="btn">Go Premium</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- LEADERBOARD -->
+<section>
+    <div class="title">
+        <p class="small-title">LEADERBOARD</p>
+        <h2>Top Players</h2>
+    </div>
+
+    <div class="table-box">
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Game</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Alex</td>
+                <td>Snake</td>
+                <td>980</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Sam</td>
+                <td>Memory</td>
+                <td>920</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>John</td>
+                <td>Tic Tac Toe</td>
+                <td>870</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="reviews" class="dark-section">
+    <div class="title">
+        <p class="small-title">PLAYER REVIEWS</p>
+        <h2>What Players Say</h2>
+    </div>
+
+    <div class="cards">
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>"The games are simple and really fun to play."</p>
+            <h3>- Arun</h3>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>"I like the leaderboard because I can compare my score."</p>
+            <h3>- Meena</h3>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★☆</div>
+            <p>"Good website for playing quick games in free time."</p>
+            <h3>- Rahul</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="title">
+        <p class="small-title">ABOUT US</p>
+        <h2>About GameVerse</h2>
+    </div>
+
+    <div class="about">
+        <h3>More Than Just Games</h3>
+        <p>
+            GameVerse is a simple gaming website created for players
+            who enjoy small challenges and friendly competition.
+        </p>
+
+        <div class="about-features">
+            <div>🎮 <b>Multiple Games</b></div>
+            <div>🏆 <b>Leaderboard</b></div>
+            <div>⚡ <b>Quick Challenges</b></div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Ready to Start Playing?</h2>
+    <p>Choose your favourite game and challenge yourself today.</p>
+    <a href="#games" class="btn">Start Playing</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="title">
+        <p class="small-title">CONTACT</p>
+        <h2>Get In Touch</h2>
+        <p>Have a question or feedback? Send us a message.</p>
+    </div>
+
+    <form id="contactForm">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="Enter your message" required></textarea>
+
+        <button class="btn" type="submit">Send Message</button>
+
+        <p id="message"></p>
+    </form>
+</section>
+
+<footer>
+    <div class="logo">Game<span>Verse</span></div>
+    <p>© 2026 GameVerse | Play. Compete. Have Fun.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
